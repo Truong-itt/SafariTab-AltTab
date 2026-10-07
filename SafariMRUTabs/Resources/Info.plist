@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>SafariMRUTabs</string>
+	<key>CFBundleDisplayName</key>
+	<string>Safari MRU Tabs</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hihi.SafariMRUTabs</string>
+	<key>CFBundleExecutable</key>
+	<string>SafariMRUTabs</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+
+	<!-- Chỉ sống trên thanh menu: không icon dock, không cửa sổ chính -->
+	<key>LSUIElement</key>
+	<true/>
+
+	<!-- Chỉ dùng cho nhánh dự phòng khi AXPress không ăn -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Dùng để chuyển tab Safari khi cách chính (Accessibility) không hoạt động.</string>
+
+	<key>NSHumanReadableCopyright</key>
+	<string>Công cụ cá nhân — mã nguồn kèm theo.</string>
+</dict>
+</plist>

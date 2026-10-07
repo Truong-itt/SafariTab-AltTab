@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Sản phẩm build — tạo lại bằng `bash SafariMRUTabs/build.sh`.
+# Không đưa app đã ký lên git: chữ ký chứa danh tính Apple ID của người build.
+SafariMRUTabs/build/
+SafariMRUTabs/auto/SafariMRUTabs.app/
+
+# File sao lưu do install.sh tạo
+*.backup.*
